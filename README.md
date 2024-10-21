@@ -1,1 +1,1 @@
-This repo is meant to show my progress in my study of the Python Programming Language
+This is not a project. I have created this repo to track my progress as I study Python.
