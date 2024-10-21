@@ -4,9 +4,13 @@
 first_name = "Kostya"
 last_name = "Zakharov"
 age = 41
-isHuman = True
+isHuman = False
 
-print(first_name)
-print(last_name)
-print(age)
-print(isHuman)
+print(f"First name: {first_name}")
+print(f"Last name: {last_name}")
+print(f"Age: {age}")
+if isHuman:
+    print("Human: YES")
+else:
+    print("Human: NO")
+
