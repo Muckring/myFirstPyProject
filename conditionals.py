@@ -6,9 +6,6 @@ name = str(input("Enter your name: "))
 #     print(f"Hello, {name}!")
 
 while name == "":
-    input("Enter your name: ")
-    
-    
-if name != "
-":
-    print(f"Hello, {name}")
+    print("You did not enter your name")
+    name = input("Enter your name: ")
+print(f"Hello, {name}")
