@@ -73,3 +73,10 @@ siblings = {
 }
 
 print(siblings)
+
+
+for x, obj in siblings.items():
+    print(x)
+    for y in obj:
+        print(y, ":", obj[y])
+    print()
