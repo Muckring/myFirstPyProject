@@ -18,5 +18,13 @@ family = ("Kostya", "Igor", "Ariana")
 # Select a family member randomly
 # using choice() method of the random module
 
-member = random.choice(family)
-print(member)
+# member = random.choice(family)
+# print(member)
+
+# random.shuffle() shuffles a collection
+
+number_list = ["6", "7", "8", "9", "10", "J", "Q", "K","A"]
+print(f"Original list: {number_list}")
+
+random.shuffle(number_list)
+print(f"Shuffled list: {number_list}")
