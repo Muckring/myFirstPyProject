@@ -4,7 +4,13 @@ class Car():
         self.year = year
         self.wheels = wheels
 
-car1 = Car("Honda", 1998, 4)
-print(car1.model)
-print(car1.year)
-print(car1.wheels)
+# A class can have methods, i.e. something it
+# can do
+
+    def drive(self) -> None:
+        print(f'{self.model} is driving')
+
+    def stop(self) -> None:
+        print(f'{self.model} has stopped')
+
+
