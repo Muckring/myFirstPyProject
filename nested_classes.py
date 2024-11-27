@@ -42,7 +42,9 @@ class Car:
 
     def print_wheels(self):
         return [wheel.show_wheel() for wheel in self.wheels]
-
+    
+    def display_car(self):
+        return f'{self.make} {self.model} {self.year} {self.display_engine()} {self.print_wheels()}'
 
 
 car = Car("Lada", "Kalina", 2021)
@@ -50,6 +52,8 @@ car = Car("Lada", "Kalina", 2021)
 car.add_engine(500)
 for engine in car.display_engine():
     print(engine)
+
+print(car.display_car())
 
 
 
